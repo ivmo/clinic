@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/jquery.arcticmodal-0.3.css">
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/slick-theme.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+  </head>
+  <body>
+
+    <header class="main-header">
+      <div class="container  main-header__top">
+        <div class="row">
+          <div class="col-xs-12 col-sm-5">
+            <figure class="main-header__logo">
+              <img src="img/logo.png" alt="">
+            </figure>
+          </div>
+          <div class="col-xs-12 col-sm-7">
+            <div class="main-header__contacts">
+              <span>г. Пятигорск, ул. Карла Маркса, д.7</span>
+              <a class="main-header__link" href="tel:+78793333992">+7 (8793) 33-39-92</a>
+              <a class="main-header__link" href="tel:+78793339805">+7 (8793) 33-98-05</a>
+            </div>
+          </div>
+        </div>
+      </div>
+        <nav class="main-nav" id="main-nav">
+    			<!-- <div class="container"> -->
+    				<a class="hamburger" id="hamburger" href="">
+    					<span></span>
+    				</a>
+    				<ul class="main-nav__list" id="main-nav__list">
+    					<li class="main-nav__item">
+    						<a class="main-nav__link" href="#treatment">Лечение</a>
+    					</li>
+    					<li class="main-nav__item">
+    						<a class="main-nav__link" href="#clinic">Клиника</a>
+    					</li>
+    					<li class="main-nav__item">
+    						<a class="main-nav__link" href="#features">Преимущества</a>
+    					</li>
+    					<li class="main-nav__item">
+    						<a class="main-nav__link" href="#spec">Специалисты</a>
+    					</li>
+    					<li class="main-nav__item">
+    						<a class="main-nav__link" href="#reviews">Отзывы</a>
+    					</li>
+    					<li class="main-nav__item">
+    						<a class="main-nav__link" href="#contacts">Контакты</a>
+    					</li>
+    				</ul>
+    			<!-- </div> -->
+    		</nav>
+      <div class="container  main-header__bottom">
+        <h1 class="main-header__title">Избавление от наркотической<br>и алкогольной зависимости,<br>лечение психических расстройств</h1>
+        <b>анонимно. безопасно. эффективно.</b>
+        <a class="btn  exampleModalbtn" href="#">Получить бесплатную консультацию</a>
+      </div>
+    </header>
+
+    <div class="about" id="clinic">
+      <div class="container">
+        <div class="about__text">Клиника Воробьева имеет сеть представительств по всей стране и зарубежом и была первой клиникой по лечению зависимостей в Российской Федерации.</div>
+        <div class="about__text">Около 20 лет мы справляемся с зависимостями разной сложности. За это время более
+          10 000 человек прошли успешное лечение. Мы помогаем вернуться к нормальной жизни пациентам из России, Бейрута, Канады, Грузии, Греции, Германии, Сербии.</div>
+        <div class="promo">
+          <div class="promo__info">
+            <h2 class="promo__title">Акция "Весеннее пробуждение"</h2>
+            <div class="promo__text">
+              С заботой о своих пациентах мы разработали специальные условия для избавления от зависимостей и лечения расстройств в марте.
+              <b>Скидка на все услуги наших специалистов составит 5%.<br>
+                Консультация врача при этом бесплатна.</b></div>
+              <div class="promo__text">На протяжении года мы также абсолютно бесплатно предлагаем амбулаторное наблюдение с целью мониторинга и корректировки состояния пациента.</div>
+              <div class="promo__text">Обратитесь к нам до 31 марта и получите приятные бонусы на пути к выздоровлению.</div>
+          </div>
+          <div class="promo__form">
+            <form class="order-form" action="/" method="post">
+              <h2 class="order-form__title">Оставить заявку
+                <span>на консультацию</span>
+              </h2>
+              <div class="order-form__field">
+                <label>
+                  <span>Ваше имя</span>
+                  <input type="text" name="name" placeholder="Иван Иванов">
+                </label>
+              </div>
+              <div class="order-form__field">
+                <label>
+                  <span>Контактный телефон</span>
+                  <input class="order-form__phone" type="phone" name="phone" placeholder="+7 (000) 000-00-00">
+                </label>
+              </div>
+              <button class="btn  order-form__submit" type="submit" name="submit">Перезвоните мне</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <section class="treatment" id="treatment">
+      <div class="container">
+        <h2 class="treatment__title">Лечение в клинике доктора воробьева</h2>
+        <div class="treatment-list">
+          <div class="treatment-list__item">
+            <figure class="treatment-list__pic">
+              <img src="img/foto1.jpg" alt="">
+            </figure>
+            <div class="treatment-list__info">
+              <h2 class="treatment-list__title">Избавление от наркотической зависимости</h2>
+              <div class="treatment-list__text">Мы подходим комплексно к избавлению и реабилитации наркозависимых пациентов, поэтому лечение является эффективным, а результат стойким. Лечение от наркомании проходит в несколько этапов. Вначале происходит
+                диагностика физического и психологического состояния пациента, формирование мотивации для лечения, далее подключается медицинский и психотерапевтический аспект, происходит очищение организма, проводится подготовка к возвращению в социум.
+                Восстанавливается психологическое и физическое здоровье, проводятся антирецедивные мероприятия, направленные на профилактику наркомании. Опыт работы ведущего нарколога клиники более 40 лет.</div>
+              <a class="btn  treatment-list__btn  exampleModalbtn" href="#">Узнайте стоимость лечения</a>
+            </div>
+          </div>
+          <div class="treatment-list__item">
+            <figure class="treatment-list__pic">
+              <img src="img/foto2.jpg" alt="">
+            </figure>
+            <div class="treatment-list__info">
+              <h2 class="treatment-list__title">Лечение алкоголизма</h2>
+              <div class="treatment-list__text">Специалисты клиники разрабатывают индивидуальную программу лечения от алкогольной зависимости для каждого пациента. Курс лечения включает в себя эффективные медикаментозные методы борьбы с алкоголизмом, а также
+                деликатную психолого-диагностическую помощь, которая направлена на выработку силы воли пациента и сознательный отказ от злоупотребления алкоголя в будущем. Большим преимуществом является и то, что помимо основного лечения пациент проходит процедуры,
+                которые направлены на восстановление внутренних органов, пострадавших от алкоголя.</div>
+              <a class="btn  treatment-list__btn  exampleModalbtn" href="#">Узнайте стоимость лечения</a>
+            </div>
+          </div>
+          <div class="treatment-list__item">
+            <figure class="treatment-list__pic">
+              <img src="img/foto3.jpg" alt="">
+            </figure>
+            <div class="treatment-list__info">
+              <h2 class="treatment-list__title">Лечение психических расстройств</h2>
+              <div class="treatment-list__text">После проведения диагностики состояния человека, опытные психологи клиники подбирают комплекс мер по бережной коррекции даже самых сложных случаев психических отклонений. Мы с пониманием относимся к любой проблеме. С
+                помощью наших психотерапевтов пациент успешно преодолеет депрессию, справится со стрессом, поборет свои страхи и фобии, восстановит душевное равновесие и гармонию с окружающим миром. Специалисты клиники также помогают пациентам с заиканиями,
+                бессонницей, проблемами с питанием. Мы окружаем пациента любовью и заботой. С помощью авторских методик состояние пациента улучшается уже после нескольких сеансов.</div>
+              <a class="btn  treatment-list__btn  exampleModalbtn" href="#">Узнайте стоимость лечения</a>
+            </div>
+          </div>
+          <div class="treatment-list__item">
+            <figure class="treatment-list__pic">
+              <img src="img/foto4.jpg" alt="">
+            </figure>
+            <div class="treatment-list__info">
+              <h2 class="treatment-list__title">Вывод из запоя</h2>
+              <div class="treatment-list__text">Выходить из запоя самостоятельно непросто и иногда даже опасно. Важно правильно подобрать препараты, которые не навредят человеку. Наркологи клиники Воробьева учитывают особенности каждого отдельного случая пациента
+                и подбирают соответствующий безопасный метод вывода из запоя. Сама процедура не занимает много времени. На первом этапе проводится диагностика пациента. Далее выбирается метод выведения из запоя, подбираются препараты, из организма устраняются
+                отравляющие вещества. В заключение специалисты восстанавливают физическое и психическое состояние человека с помощью витаминов, седативных препаратов, консультаций психолога. После этих мер пациент может спокойно вернуться к нормальному образу жизни.</div>
+              <a class="btn  treatment-list__btn  exampleModalbtn" href="#">Узнайте стоимость лечения</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="reason" id="features">
+      <div class="container">
+        <h2 class="reason__title">Почему вы выберете именно нашу клинику</h2>
+        <div class="reasons-list">
+          <div class="reasons-list__item  reasons-list__item--mask">
+            Гарантируем вашу полную конфиденциальность
+          </div>
+          <div class="reasons-list__item  reasons-list__item--shield">
+            Пациент клиники бесплатно получает амбулаторное наблюдение и необходимую коррекцию в течение года после лечения
+          </div>
+          <div class="reasons-list__item  reasons-list__item--24-7">
+            Пациент находится под круглосуточным наблюдением врачей. Срывы и рецидивы во время лечения исключены.
+          </div>
+          <div class="reasons-list__item  reasons-list__item--comfort">
+            Пациент размещается в комфортных номерах для проживания. Клиника находится в живописной курортной части города.
+          </div>
+          <div class="reasons-list__item  reasons-list__item--guy">
+            Пациент получает квалифицированную помощь опытных специалистов. Среди них доктора медицинских наук со стажем до 40 лет работы в данной области, а также академик техно-медицинских наук Воробьев Н.В.
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="specialists" id="spec">
+      <div class="container">
+        <h2 class="specialists__title">Ведущие специалисты</h2>
+        <div class="specialists__text">Специалисты клиники Воробьева применяют комплексный подход в работе с пациентами. Нам доверяют самые непростые случаи.<br><b>Приоритет клиники – здоровье и благополучие пациента.</b></div>
+        <div class="specialists__text">Мы убеждены, что только индивидуальный подход
+          и сочетание различных терапевтических методов может гарантировать хороший, устойчивый результат, направленный на возврат пациента к счастливой жизни.</div>
+          <div class="specialists__text">Если в течение года после завершения курса лечения пациент возвращается к пагубной привычке, мы
+          проводим повторный курс <b>абсолютно бесплатно</b>. Для нас главное, чтобы пациент и его близкие были довольны результатом.
+        </div>
+        <div class="specialists-list">
+          <div class="specialists-list__item col-xs-4">
+            <figure class="specialists-list__img">
+              <img src="img/personal1.jpg" alt="">
+            </figure>
+            <div class="specialists-list__name">
+              <b>Воробьев
+              </b>Николай Васильевич</div>
+            <div class="specialists-list__description">Руководитель клиники, врач-психиатр, психиатр-нарколог, реаниматолог, токсиколог, к.м.н., академик Академии Медико-технических Наук</div>
+          </div>
+          <div class="specialists-list__item col-xs-4">
+            <figure class="specialists-list__img">
+              <img src="img/personal2.jpg" alt="">
+            </figure>
+            <div class="specialists-list__name">
+              <b>Абрамов
+              </b>Александр Алексеевич</div>
+            <div class="specialists-list__description">Заместитель руководителя клиники, психоаналитик</div>
+          </div>
+          <div class="specialists-list__item col-xs-4">
+            <figure class="specialists-list__img">
+              <img src="img/personal3.jpg" alt="">
+            </figure>
+            <div class="specialists-list__name">
+              <b>Бугаев
+              </b>Александр Васильевич</div>
+            <div class="specialists-list__description">Главный врач. Психиатр, психиатр-нарколог, психотерапевт</div>
+          </div>
+          <div class="specialists-list__item col-xs-4">
+            <figure class="specialists-list__img">
+              <img src="img/personal4.jpg" alt="">
+            </figure>
+            <div class="specialists-list__name">
+              <b>Юлов
+              </b>Николай Васильевич</div>
+            <div class="specialists-list__description">Психиатр-нарколог</div>
+          </div>
+          <div class="specialists-list__item col-xs-4">
+            <figure class="specialists-list__img">
+              <img src="img/personal5.jpg" alt="">
+            </figure>
+            <div class="specialists-list__name">
+              <b>Иванова
+              </b>Олеся Михайловна</div>
+            <div class="specialists-list__description">Кандидат психологических наук, психолог</div>
+          </div>
+          <div class="specialists-list__item col-xs-4">
+            <figure class="specialists-list__img">
+              <img src="img/personal6.jpg" alt="">
+            </figure>
+            <div class="specialists-list__name">
+              <b>Лацина
+              </b>Лариса Михайловна</div>
+            <div class="specialists-list__description">Врач анестезиолог-реаниматолог</div>
+          </div>
+        </div>
+        <div class="license">
+          <div class="row">
+            <div class="col-xs-12 col-sm-6">
+              <a class="license__item" href="#" download>Лицензия на осуществление медицинской
+                  деятельности Лицензия на осуществление
+                  медицинской деятельности</a>
+            </div>
+            <div class="col-xs-12 col-sm-6">
+              <a class="license__item" href="#" download>Лицензия на осуществление медицинской
+                деятельности Лицензия на осуществление
+                медицинской деятельности</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="reviews" id="reviews">
+      <div class="container">
+        <h2 class="reviews__title">Отзывы наших пациентов</h2>
+        <div class="slider">
+          <div class="slider-item">
+            <figure class="slider-item__img">
+              <img src="img/review.jpg" alt="">
+            </figure>
+            <div class="slider-item__text">
+              <span>Уважаемый Николай Васильевич!</span>
+              Большое спасибо Вам, а так же всем сотрудникам и персоналу клиники, за профессионализм, чуткость и заботу, проявленные к пациентам! Отдельно хочу поблагодарить Ларису Михайловну, Светлану Владимировну, поворов… Спасибо Вам за доброе дело! Здоровья и удачи в будущем году!
+              <div class="slider-item__description"><span>Руслан</span>, 04 декабря 2015 г.</div>
+            </div>
+          </div>
+          <div class="slider-item">
+            <figure class="slider-item__img">
+              <img src="img/review.jpg" alt="">
+            </figure>
+            <div class="slider-item__text">
+              <span>Уважаемый Николай Васильевич!</span>
+              Большое спасибо Вам, а так же всем сотрудникам и персоналу клиники, за профессионализм, чуткость и заботу, проявленные к пациентам! Отдельно хочу поблагодарить Ларису Михайловну, Светлану Владимировну, поворов… Спасибо Вам за доброе дело! Здоровья и удачи в будущем году!
+              <div class="slider-item__description"><span>Руслан</span>, 04 декабря 2015 г.</div>
+            </div>
+          </div>
+          <div class="slider-item">
+            <figure class="slider-item__img">
+              <img src="img/review.jpg" alt="">
+            </figure>
+            <div class="slider-item__text">
+              <span>Уважаемый Николай Васильевич!</span>
+              Большое спасибо Вам, а так же всем сотрудникам и персоналу клиники, за профессионализм, чуткость и заботу, проявленные к пациентам! Отдельно хочу поблагодарить Ларису Михайловну, Светлану Владимировну, поворов… Спасибо Вам за доброе дело! Здоровья и удачи в будущем году!
+              <div class="slider-item__description"><span>Руслан</span>, 04 декабря 2015 г.</div>
+            </div>
+          </div>
+          <div class="slider-item">
+            <figure class="slider-item__img">
+              <img src="img/review.jpg" alt="">
+            </figure>
+            <div class="slider-item__text">
+              <span>Уважаемый Николай Васильевич!</span>
+              Большое спасибо Вам, а так же всем сотрудникам и персоналу клиники, за профессионализм, чуткость и заботу, проявленные к пациентам! Отдельно хочу поблагодарить Ларису Михайловну, Светлану Владимировну, поворов… Спасибо Вам за доброе дело! Здоровья и удачи в будущем году!
+              <div class="slider-item__description"><span>Руслан</span>, 04 декабря 2015 г.</div>
+            </div>
+          </div>
+        </div>
+        <div class="slider__dots"></div>
+        <a class="btn  btn-review" href="#">Оставить отзыв</a>
+      </div>
+    </section>
+
+    <footer class="main-footer" id="contacts">
+      <div class="map" id="yandex-map">
+        <div class="map__form-wrapper">
+          <form class="order-form" action="/" method="post">
+            <h2 class="order-form__title">Контактная информация</h2>
+            <div class="order-form__address">г. Пятигорск<br>ул. Карла Маркса, д. 7</div>
+            <a class="order-form__phone" href="tel:+78793333992">+7 (8793) 33-39-92</a>
+            <div class="order-form__info">Мы работаем круглосуточно и без выходных. Обратитесь к нам за бесплатной консультацией.</div>
+            <div class="order-form__field">
+              <label>
+                <span>Ваше имя</span>
+                <input type="text" name="name" placeholder="Иван Иванов">
+              </label>
+            </div>
+            <div class="order-form__field">
+              <label>
+                <span>Контактный телефон</span>
+                <input class="order-form__phone" type="phone" name="phone" placeholder="+7 (000) 000-00-00">
+              </label>
+            </div>
+            <button class="btn  order-form__submit" type="submit" name="submit">Перезвоните мне</button>
+          </form>
+        </div>
+      </div>
+    </footer>
+
+    <div class="call-popup">
+      <div class="contact-form box-modal" id="exampleModal">
+        <div class="box-modal_close arcticmodal-close"></div>
+        <form class="order-form" action="/" method="post">
+          <!-- <h2 class="order-form__title"></h2> -->
+          <div class="order-form__field">
+            <label>
+              <span>Ваше имя</span>
+              <input type="text" name="name" placeholder="Иван Иванов">
+            </label>
+          </div>
+          <div class="order-form__field">
+            <label>
+              <span>Контактный телефон</span>
+              <input class="order-form__phone" type="phone" name="phone" placeholder="+7 (000) 000-00-00">
+            </label>
+          </div>
+          <button class="btn  order-form__submit" type="submit" name="submit">Отправить</button>
+        </form>
+      </div>
+    </div>
+
+    <div class="review-popup">
+      <div class="review-form box-modal" id="review-popup">
+        <div class="box-modal_close arcticmodal-close"></div>
+        <form class="order-form" action="/" method="post">
+          <h2 class="order-form__title">Форма отзыва</h2>
+          <div class="order-form__field">
+            <label>
+              <span>Ваше имя</span>
+              <input type="text" name="name" placeholder="Иван Иванов">
+            </label>
+          </div>
+          <div class="order-form__field">
+            <label>
+              <span>Отзыв</span>
+              <textarea name="review" rows="8" cols="80"></textarea>
+            </label>
+          </div>
+          <div class="order-form__field">
+            <label>
+              <span>Прикрепить файл</span>
+              <input type="file" name="f" accept="image/jpeg,image/png">
+            </label>
+          </div>
+          <button class="btn  order-form__submit" type="submit" name="submit">Отправить</button>
+        </form>
+      </div>
+    </div>
+
+    <script src="js/jquery-3.1.1.min.js" charset="utf-8"></script>
+    <script src="js/bootstrap.min.js" charset="utf-8"></script>
+    <script src="js/jquery.arcticmodal-0.3.min.js" charset="utf-8"></script>
+		<script src="js/slick.min.js" charset="utf-8"></script>
+    <script src="js/jquery.maskedinput.js" charset="utf-8"></script>
+    <script src="js/script.js" charset="utf-8"></script>
+    <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?sid=jCdessWi565tjf3TAZ4rA1zirZ57J0-C&amp;width=100%25&amp;height=620&amp;&id=yandex-map&lang=ru_RU&amp;sourceType=constructor"></script>
+  </body>
+</html>
+
+<!-- <i class="sprite sprite-24-7"></i>
+<i class="sprite sprite-arrow-next"></i>
+<i class="sprite sprite-arrow-prev"></i>
+<i class="sprite sprite-comfort"></i>
+<i class="sprite sprite-guy"></i>
+<i class="sprite sprite-mask"></i>
+<i class="sprite sprite-pdf"></i>
+<i class="sprite sprite-prise"></i>
+<i class="sprite sprite-shield"></i>
+ -->
